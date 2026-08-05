@@ -34,12 +34,16 @@ export default function SelectedPublications({ publications, title, enableOnePag
             </div>
             <div className="space-y-4">
                 {publications.map((pub, index) => (
-                    <motion.div
+                    <motion.a
                         key={pub.id}
+                        href={pub.url}
+                        target={pub.url ? "_blank" : undefined}
+                        rel={pub.url ? "noopener noreferrer" : undefined}
+                        aria-label={pub.url ? `Open project page for ${pub.title}` : undefined}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.4, delay: 0.1 * index }}
-                        className="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                        className="block bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg hover:border-accent/50 transition-all duration-200 hover:scale-[1.02] cursor-pointer"
                     >
                         <h3 className="font-semibold text-primary mb-2 leading-tight">
                             <FormattedBibTeXText nodes={pub.titleNodes} fallback={pub.title} />
@@ -65,7 +69,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                 {pub.description}
                             </p>
                         )}
-                    </motion.div>
+                    </motion.a>
                 ))}
             </div>
         </motion.section>
