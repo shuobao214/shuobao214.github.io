@@ -1,5 +1,7 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a graduate student at Peking University, working on Embodied AI, Robot Learning, and World Models.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+My research focuses on developing intelligent agents that can perceive, reason, and interact with the physical world through learning-based approaches.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+I am particularly interested in building foundation models for robots, exploring the connection between artificial intelligence and embodied intelligence.
+
+I welcome research discussions and collaboration opportunities.
