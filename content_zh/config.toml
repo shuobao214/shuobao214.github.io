@@ -1,22 +1,38 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "包硕"
+description = "北京大学硕士研究生，研究方向为具身智能、机器人学习与世界模型。"
+favicon = "/favicon.svg"
+last_updated = "2026年8月5日"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "包硕"
+title = "硕士研究生"
+institution = "北京大学"
+avatar = "/bio.jpg"
 
 [social]
-location = "城市，国家"
-location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
-]
+email = "baoshuo26@stu.pku.edu.cn"
+github = "https://github.com/shuobao214"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
 
 [[navigation]]
-title = "关于我"
+title = "关于"
 type = "page"
 target = "about"
 href = "/"
@@ -40,7 +56,7 @@ target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "服务"
+title = "学术服务"
 type = "page"
 target = "services"
 href = "/services"
