@@ -32,10 +32,12 @@ export interface Publication {
   publishedDate?: string;
   doi?: string;
   arxivId?: string;
+  arxivUrl?: string;
   pmid?: string;
   url?: string;
   code?: string;
   pdfUrl?: string;
+  supplementaryUrl?: string;
   tags: string[];
   keywords?: string[];
   type: PublicationType;

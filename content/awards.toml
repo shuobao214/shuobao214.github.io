@@ -1,4 +1,8 @@
 type = "card"
 title = "Awards"
-description = "Awards will be added here."
-items = []
+description = ""
+
+[[items]]
+title = "National Second Prize"
+subtitle = "23rd China Post-Graduate Mathematical Contest in Modeling (Huawei Cup)"
+date = "2026"

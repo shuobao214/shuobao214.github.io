@@ -1,4 +1,8 @@
 type = "card"
 title = "奖项"
-description = "奖项信息将在此更新。"
-items = []
+description = ""
+
+[[items]]
+title = "全国二等奖"
+subtitle = "“华为杯”第二十三届中国研究生数学建模竞赛"
+date = "2026"
